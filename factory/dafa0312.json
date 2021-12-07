@@ -1,0 +1,9 @@
+{
+	"name": "dafa0312",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1e0700a7-b84f-474f-ab81-3ebcc201b851",
+		"tenantId": "8af40a24-3619-4c7c-9fe4-f93b35059808"
+	}
+}

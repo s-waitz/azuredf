@@ -1,0 +1,25 @@
+{
+	"name": "OutputImdb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedServiceBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "imdb_movies_new",
+				"folderPath": "output",
+				"container": "dafablob"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
